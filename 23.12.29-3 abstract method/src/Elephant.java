@@ -7,4 +7,10 @@ public class Elephant extends Animal {
 	public void eatHay() {
 		System.out.println("코끼리는 초식을 합니다.");
 	}
+
+	@Override
+	public void printSound() {
+		System.out.println("뿌우우");
+		
+	}
 }

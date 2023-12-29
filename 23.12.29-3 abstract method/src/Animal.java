@@ -1,5 +1,5 @@
 
-public class Animal extends Object {
+public abstract class Animal extends Object {
 	private int weight;
 	private int age;
 	
@@ -8,6 +8,10 @@ public class Animal extends Object {
 		this.weight = weight;
 		this.age = age;
 	}
+	
+	public abstract void printSound();
+		
+
 	public int getWeight() {
 		return weight;
 	}

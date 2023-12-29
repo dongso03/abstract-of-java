@@ -7,4 +7,10 @@ public class Eagle extends Bird {
 	public void hunt() {
 		System.out.println("사냥을 함");
 	}
+
+	@Override
+	public void printSound() {
+	System.out.println("빼에엑");
+		
+	}
 }
