@@ -20,6 +20,11 @@ public class Person {
 		}
 	}
 
+	@Override
+	public String toString() {
+		return String.format("이름: %s, 나이: %d", name, age);
+	}
+
 	public String getName() {
 		return name;
 	}

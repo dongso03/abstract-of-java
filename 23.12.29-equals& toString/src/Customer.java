@@ -14,6 +14,11 @@ public class Customer {
 	}
 
 	@Override
+	public String toString() {
+		return "Customer [name=" + name + ", phoneNumber=" + phoneNumber + "]";
+	}
+
+	@Override
 	public boolean equals(Object obj) {
 		Customer c = (Customer) obj;
 		if (this.getName().equals(c.getName()) && this.getPhoneNumber().equals(c.getPhoneNumber())) {

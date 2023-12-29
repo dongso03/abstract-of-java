@@ -23,6 +23,11 @@ class Pen {
 		this.price = price;
 	}
 
+	@Override
+	public String toString() {
+		return "Pen [price=" + price + "]";
+	}
+
 }
 
 public class Student {
@@ -39,6 +44,11 @@ public class Student {
 		this.eng = eng;
 		this.math = math;
 		this.pen = pen;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", kor=" + kor + ", eng=" + eng + ", math=" + math + ", pen=" + pen + "]";
 	}
 
 	@Override

@@ -11,6 +11,13 @@ public class Box {
 		this.length = length;
 	}
 
+	
+	@Override
+	public String toString() {
+		return String.format("가로: %d, 세로: %d, 높이: %d", width,height,length);
+	}
+
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
